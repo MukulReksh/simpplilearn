@@ -1,0 +1,17 @@
+package day4assignment;
+
+public class Problems {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(33 & 1);
+		
+	}
+	
+	public static String oddOrEven(int num) {
+		int ans = num & 1;
+		
+		return ans == num ? "even" : "odd";
+	}
+
+}

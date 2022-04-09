@@ -1,0 +1,16 @@
+package day4assignment;
+
+public class Problems {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public static String oddOrEven(int num) {
+		int ans = num & 1;
+		
+		return ans == 1 ? "odd" : "even";
+	}
+
+}
